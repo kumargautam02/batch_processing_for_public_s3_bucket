@@ -19,7 +19,7 @@ def ingest_data_from_s3(current_working, s3, s3_path):
         """
 
         # current_working = os.getcwd()
-        # s3.get(f'{s3_path}', f'{current_working}/Landing1/',recursive=True, maxdepth=None)
+        s3.get(f'{s3_path}', f'{current_working}/Landing1/',recursive=True, maxdepth=None)
         return f'{current_working}/Landing1/'
     except Exception as e:
         logger.info(f"Error has been encountered at ingest_data_from_s3 {e}")
