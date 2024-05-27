@@ -1,0 +1,9 @@
+# #ignore all the Files suffixing .ipynb
+
+
+# #ignoring 
+**/.venv
+# **/Landing
+
+# #ignore all the __pycache_files 
+**/__pycache__
