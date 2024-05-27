@@ -3,7 +3,8 @@
 
 # #ignoring 
 **/.venv
-# **/Landing
+**/Landing1
+**/Clean1
 
 # #ignore all the __pycache_files 
 **/__pycache__
